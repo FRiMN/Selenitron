@@ -1,4 +1,6 @@
-# selenitron
+# Selenitron
+
+Reimplementation of [rendertron](https://github.com/GoogleChrome/rendertron).
 
 ## Start webserver
 ```
