@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+gevent
+selenium
+arsenic
+pillow
+pytest
+pytest-cov
+python3-logstash
+logstash_formatter
+boto3
+requests

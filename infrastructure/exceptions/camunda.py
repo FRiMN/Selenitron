@@ -1,0 +1,2 @@
+class CamundaException(Exception):
+    pass

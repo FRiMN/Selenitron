@@ -1,0 +1,13 @@
+version: '2.4'
+
+services:
+    python:
+        build: .
+        volumes:
+            - .:/usr/src/app
+        ports:
+            - 8000:8000
+        environment:
+            - AWS_DEFAULT_PROFILE=default
+            - AWS_SHARED_CREDENTIALS_FILE=/root/.aws/credentials
+        command: uvicorn main:app --reload --host 0.0.0.0 --log-level debug
